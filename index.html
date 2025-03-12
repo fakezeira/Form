@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/globalStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+<body>
+    <div id="container">
+        <div id="backgroundImg">
+            <div>
+                <h1>Enter the Future</h1>
+                <h2>Master JavaScript Today and Unlock Tomorrow's Possibilities!</h2>
+            </div>
+        </div><!--div backgroundImg-->
+
+        <form id="form">
+            <img src="imgs/Logo_(2).png.png" alt="logo JS">
+
+            <p style="font-weight: 600; font-size: 2rem; margin-top: 4%;">Get Started</p>
+            <p style="color: rgb(70, 69, 69); font-size: 1.1rem;">Welcome to FdAcademy - Let's create your account</p>
+            <hr>
+
+            <div id="inputEmailAndPassword">
+                <h2>Email</h2>
+                <input type="email" class="inputForm required" placeholder="lorem@loremlorem.com" oninput="emailValidate()">
+                <span style="color: red; display: none;" class="spansRequired">Digite um email válido!</span>
+                <h2>Password</h2>
+                <input type="password" class="inputForm required" placeholder="********" oninput="passWordValidate()">
+                <span style="color: red; display: none;" class="spansRequired"></span>
+            </div>
+
+            <div id="btnSingUp">
+                <button type="submit" class="button">SIGN UP</button>
+                <p>Already have a account? <span><a href="#">Login in</a></span></p>
+            </div>
+        </form><!--form-->
+
+        <div id="professionalNetworks">
+            <a href="#" target="_blank"><img src="imgs/github.png.png" alt="Icon Git Hub"></a>
+            <a href="#" target="_blank"><img src="imgs/Instagram.png.png" alt="Instagram"></a>
+        </div>
+
+    </div><!--container-->
+
+    <script src="script.js"></script><!--script Js-->
+</body>
+</html>

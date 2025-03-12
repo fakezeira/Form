@@ -21,7 +21,7 @@ body{
     color: white;
     font-weight: bold;
     background: linear-gradient(rgba(4, 2, 134, 0.6), rgba(26, 2, 165, 0.6)), 
-            url(/imgs/img.jpeg);
+            url('/imgs/img.jpeg');
             background-size: cover;
     border-bottom-right-radius: 4%;
     border-bottom-left-radius: 4%;
